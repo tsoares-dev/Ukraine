@@ -12,5 +12,21 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #004D40;
+  display: flex;
+  /*justify-content: center; justifica conteudo*/
+  align-items: center;
+  flex-direction: column;
+}
+#band-ucrania{
+  width: 300px;
+  height: 200px;
+  border: 1px solid #fff;
+  background: linear-gradient(#0155af 50%, #efc601 50%);
+  margin-top: 50px;
+}
+h1 {
+  color: #fff;
+  font-size: 120px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
