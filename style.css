@@ -18,15 +18,28 @@ body {
   flex-direction: column;
 }
 #band-ucrania{
+  margin-top: 50px;
   width: 300px;
   height: 200px;
   border: 1px solid #fff;
   background: linear-gradient(#0155af 50%, #efc601 50%);
-  margin-top: 50px;
+  display: flex;
+  justify-content: center; /*ALINHAMENTO VERTICAL*/
+  align-items: center; /*ALINHAMENTO HORIZONTAL*/
+
+}
+#band-ucrania span {
+  font-size: 32px;
+  color: #fff;
+  animation: heart-ucrania 0.5s infinite;
 }
 h1 {
   color: #fff;
   font-size: 120px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+}
+@keyframes heart-ucrania {
+  0% {font-size: 32px;}
+  50% {font-size: 64px;}
+  100% {font-size: 128px;}
 }
